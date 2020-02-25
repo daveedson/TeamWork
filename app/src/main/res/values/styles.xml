@@ -7,6 +7,11 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
+        <item name="popupTheme">@style/PopUpTheme</item>
+
+
+
+
 
     </style>
 
@@ -14,7 +19,38 @@
 
 
 
+<style name="BottomNavigationTheme" parent="Widget.Design.BottomNavigationView">
+
+    <item name="colorPrimary">@color/BottomNavigation</item>
+</style>
 
 
+    <style name="PopUpTheme" parent="Theme.MaterialComponents.Light">
+
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorItem</item>
+
+
+
+    </style>
+
+
+    <style name="textDesign"    parent="TextAppearance.AppCompat">
+
+
+        <item name="android:textColorHint">@color/TextColorHint</item>
+        <item name="editTextColor">@color/EditTextColor</item>
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textColorSecondary">@color/HintColor</item>
+        <item name="android:hint">#ffff</item>
+        <item name="android:editTextColor">#ffffff</item>
+
+
+    </style>
+
+    <style name="CounterStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/TextColorHint</item>
+        <!--other parameters that you want to change -->
+    </style>
 
 </resources>

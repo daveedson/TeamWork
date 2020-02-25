@@ -1,9 +1,11 @@
-package com.example.teamwork;
+package com.example.teamwork.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.example.teamwork.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
 
                 try {
                     sleep(8000);
-                    Intent intent = new Intent(getApplicationContext(),Home.class);
+                    Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
                     startActivity(intent);
                     finish();
 
-                }catch (InterruptedException e){
+                }catch (Exception e){
 
                     e.printStackTrace();
                 }

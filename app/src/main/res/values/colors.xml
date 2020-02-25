@@ -3,4 +3,14 @@
     <color name="colorPrimary">#EF5350</color>
     <color name="colorPrimaryDark">#F44336</color>
     <color name="colorAccent">#ffff</color>
+
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorItem">#000000</color>
+
+    <color name="BottomNavigation">#EF9A9A</color>
+
+    <color name="TextColorHint">#ffffff</color>
+    <color name="TextColor">#ffffff</color>
+    <color name="EditTextColor">#ffffff</color>
+    <color name="HintColor">#ffffff</color>
 </resources>
